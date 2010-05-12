@@ -1,5 +1,5 @@
 category: Java
-requires: java-icedtea-jpeg
+requires:
 sdesc: "Java Apache XML Graphics library"
 ldesc: "Apache XML Graphics Commons is a library that consists of 
 several reusable components used by Apache Batik and Apache FOP. Many of 

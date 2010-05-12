@@ -1,10 +1,9 @@
-JAVA_CLASSPATH="icedtea-jpeg.jar"
 inherit ant
 
 DESCRIPTION="Common components from Apache Batik and FOP"
 HOMEPAGE="http://xmlgraphics.apache.org/commons/"
 SRC_URI="mirror://apache/xmlgraphics/commons/source/${P#java-}-src.tar.gz"
 
-ANT_BUILD_TARGETS="package" # javadocs"
+ANT_BUILD_TARGETS="package javadocs"
 ANT_TEST_TARGETS="junit"
 ANT_INSTALL_JARS="build/*.jar"
